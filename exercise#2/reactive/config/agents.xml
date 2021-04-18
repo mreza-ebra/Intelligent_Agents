@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<agents>
+	<!-- A list of agents and their behavior classes -->
+	
+	<!-- #### REACTIVE AGENTS ### -->
+	<agent name="reactive-rla">
+		<set class-path="bin/"/>
+		<set class-name="ReactiveAgent"></set>
+<<<<<<< HEAD
+		<set discount-factor=".95"/>
+	</agent>
+		<!-- #### REACTIVE AGENTS ### -->
+	<agent name="reactive-rla-2">
+		<set class-path="bin/"/>
+		<set class-name="ReactiveAgent"></set>
+		<set discount-factor="0"/>
+	</agent>
+	<agent name="reactive-rla-3">
+		<set class-path="bin/"/>
+		<set class-name="ReactiveAgent"></set>
+		<set discount-factor="0"/>
+=======
+		<set discount-factor=".9"/>
+>>>>>>> 64b4a7ece3e0a622621bf08baf35c66aa0cff9f0
+	</agent>
+	<agent name="reactive-random">
+		<set class-path="bin/"/>
+		<set class-name="template.ReactiveTemplate"></set>
+		<set discount-factor=".7"></set>
+	</agent>
+	
+</agents>

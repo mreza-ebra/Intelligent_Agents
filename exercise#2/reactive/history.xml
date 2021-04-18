@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<history configuration="config\reactive.xml">
+	<agents>
+		<agent name="reactive-rla">
+			<vehicle name="Vehicle 1"/>
+		</agent>
+		<agent name="reactive-rla-2">
+			<vehicle name="Vehicle 2"/>
+		</agent>
+		<agent name="reactive-random">
+			<vehicle name="Vehicle 3"/>
+		</agent>
+	</agents>
+	<rounds>
+		<round id="1">
+			<tasks>
+				<task id="0" pickup="Marseille" delivery="Bordeaux" weight="3" reward="50000"/>
+				<task id="1" pickup="Genève" delivery="Strasbourg" weight="3" reward="50000"/>
+				<task id="2" pickup="Le Havre" delivery="Brest" weight="3" reward="50000"/>
+				<task id="3" pickup="Paris" delivery="Lyon" weight="3" reward="50000"/>
+				<task id="4" pickup="Marseille" delivery="Bordeaux" weight="3" reward="50000"/>
+				<task id="5" pickup="Le Havre" delivery="Monaco" weight="3" reward="50000"/>
+				<task id="6" pickup="Marseille" delivery="Bordeaux" weight="3" reward="50000"/>
+				<task id="7" pickup="Strasbourg" delivery="Monaco" weight="3" reward="50000"/>
+				<task id="8" pickup="Paris" delivery="Le Havre" weight="3" reward="50000"/>
+				<task id="9" pickup="Bordeaux" delivery="Lyon" weight="3" reward="50000"/>
+				<task id="10" pickup="Genève" delivery="Monaco" weight="3" reward="50000"/>
+				<task id="11" pickup="Lyon" delivery="Brest" weight="3" reward="50000"/>
+				<task id="12" pickup="Strasbourg" delivery="Lyon" weight="3" reward="50000"/>
+				<task id="13" pickup="Brest" delivery="Strasbourg" weight="3" reward="50000"/>
+				<task id="14" pickup="Strasbourg" delivery="Genève" weight="3" reward="50000"/>
+				<task id="15" pickup="Paris" delivery="Brest" weight="3" reward="50000"/>
+				<task id="16" pickup="Brest" delivery="Paris" weight="3" reward="50000"/>
+				<task id="17" pickup="Genève" delivery="Strasbourg" weight="3" reward="50000"/>
+				<task id="18" pickup="Bordeaux" delivery="Strasbourg" weight="3" reward="50000"/>
+				<task id="19" pickup="Paris" delivery="Bordeaux" weight="3" reward="50000"/>
+				<task id="20" pickup="Strasbourg" delivery="Marseille" weight="3" reward="50000"/>
+				<task id="21" pickup="Marseille" delivery="Genève" weight="3" reward="50000"/>
+				<task id="22" pickup="Le Havre" delivery="Paris" weight="3" reward="50000"/>
+				<task id="23" pickup="Le Havre" delivery="Paris" weight="3" reward="50000"/>
+				<task id="24" pickup="Genève" delivery="Marseille" weight="3" reward="50000"/>
+				<task id="25" pickup="Paris" delivery="Monaco" weight="3" reward="50000"/>
+				<task id="26" pickup="Marseille" delivery="Paris" weight="3" reward="50000"/>
+				<task id="27" pickup="Bordeaux" delivery="Lyon" weight="3" reward="50000"/>
+				<task id="28" pickup="Le Havre" delivery="Paris" weight="3" reward="50000"/>
+				<task id="29" pickup="Lyon" delivery="Monaco" weight="3" reward="50000"/>
+				<task id="30" pickup="Marseille" delivery="Paris" weight="3" reward="50000"/>
+				<task id="31" pickup="Genève" delivery="Brest" weight="3" reward="50000"/>
+				<task id="32" pickup="Bordeaux" delivery="Lyon" weight="3" reward="50000"/>
+				<task id="33" pickup="Genève" delivery="Brest" weight="3" reward="50000"/>
+				<task id="34" pickup="Brest" delivery="Genève" weight="3" reward="50000"/>
+				<task id="35" pickup="Monaco" delivery="Genève" weight="3" reward="50000"/>
+				<task id="36" pickup="Monaco" delivery="Le Havre" weight="3" reward="50000"/>
+				<task id="37" pickup="Le Havre" delivery="Brest" weight="3" reward="50000"/>
+				<task id="38" pickup="Monaco" delivery="Genève" weight="3" reward="50000"/>
+				<task id="39" pickup="Strasbourg" delivery="Brest" weight="3" reward="50000"/>
+				<task id="40" pickup="Genève" delivery="Marseille" weight="3" reward="50000"/>
+				<task id="41" pickup="Bordeaux" delivery="Strasbourg" weight="3" reward="50000"/>
+				<task id="42" pickup="Paris" delivery="Lyon" weight="3" reward="50000"/>
+				<task id="43" pickup="Bordeaux" delivery="Paris" weight="3" reward="50000"/>
+				<task id="44" pickup="Bordeaux" delivery="Strasbourg" weight="3" reward="50000"/>
+				<task id="45" pickup="Paris" delivery="Monaco" weight="3" reward="50000"/>
+				<task id="46" pickup="Strasbourg" delivery="Paris" weight="3" reward="50000"/>
+				<task id="47" pickup="Paris" delivery="Monaco" weight="3" reward="50000"/>
+				<task id="48" pickup="Genève" delivery="Strasbourg" weight="3" reward="50000"/>
+				<task id="49" pickup="Genève" delivery="Le Havre" weight="3" reward="50000"/>
+				<task id="50" pickup="Brest" delivery="Monaco" weight="3" reward="50000"/>
+				<task id="51" pickup="Monaco" delivery="Le Havre" weight="3" reward="50000"/>
+				<task id="52" pickup="Le Havre" delivery="Lyon" weight="3" reward="50000"/>
+				<task id="53" pickup="Lyon" delivery="Marseille" weight="3" reward="50000"/>
+				<task id="54" pickup="Bordeaux" delivery="Lyon" weight="3" reward="50000"/>
+				<task id="55" pickup="Le Havre" delivery="Strasbourg" weight="3" reward="50000"/>
+				<task id="56" pickup="Bordeaux" delivery="Lyon" weight="3" reward="50000"/>
+				<task id="57" pickup="Strasbourg" delivery="Monaco" weight="3" reward="50000"/>
+				<task id="58" pickup="Paris" delivery="Genève" weight="3" reward="50000"/>
+				<task id="59" pickup="Marseille" delivery="Strasbourg" weight="3" reward="50000"/>
+				<task id="60" pickup="Marseille" delivery="Brest" weight="3" reward="50000"/>
+				<task id="61" pickup="Marseille" delivery="Strasbourg" weight="3" reward="50000"/>
+				<task id="62" pickup="Lyon" delivery="Strasbourg" weight="3" reward="50000"/>
+				<task id="63" pickup="Marseille" delivery="Strasbourg" weight="3" reward="50000"/>
+				<task id="64" pickup="Strasbourg" delivery="Marseille" weight="3" reward="50000"/>
+				<task id="65" pickup="Strasbourg" delivery="Le Havre" weight="3" reward="50000"/>
+				<task id="66" pickup="Bordeaux" delivery="Paris" weight="3" reward="50000"/>
+				<task id="67" pickup="Strasbourg" delivery="Monaco" weight="3" reward="50000"/>
+				<task id="68" pickup="Bordeaux" delivery="Genève" weight="3" reward="50000"/>
+				<task id="69" pickup="Strasbourg" delivery="Brest" weight="3" reward="50000"/>
+				<task id="70" pickup="Monaco" delivery="Paris" weight="3" reward="50000"/>
+				<task id="71" pickup="Marseille" delivery="Le Havre" weight="3" reward="50000"/>
+				<task id="72" pickup="Genève" delivery="Lyon" weight="3" reward="50000"/>
+				<task id="73" pickup="Paris" delivery="Genève" weight="3" reward="50000"/>
+				<task id="74" pickup="Genève" delivery="Le Havre" weight="3" reward="50000"/>
+				<task id="75" pickup="Bordeaux" delivery="Strasbourg" weight="3" reward="50000"/>
+				<task id="76" pickup="Paris" delivery="Bordeaux" weight="3" reward="50000"/>
+				<task id="77" pickup="Monaco" delivery="Lyon" weight="3" reward="50000"/>
+				<task id="78" pickup="Genève" delivery="Strasbourg" weight="3" reward="50000"/>
+				<task id="79" pickup="Bordeaux" delivery="Monaco" weight="3" reward="50000"/>
+				<task id="80" pickup="Monaco" delivery="Genève" weight="3" reward="50000"/>
+				<task id="81" pickup="Genève" delivery="Le Havre" weight="3" reward="50000"/>
+				<task id="82" pickup="Strasbourg" delivery="Le Havre" weight="3" reward="50000"/>
+				<task id="83" pickup="Paris" delivery="Le Havre" weight="3" reward="50000"/>
+				<task id="84" pickup="Strasbourg" delivery="Marseille" weight="3" reward="50000"/>
+				<task id="85" pickup="Marseille" delivery="Le Havre" weight="3" reward="50000"/>
+				<task id="86" pickup="Genève" delivery="Paris" weight="3" reward="50000"/>
+				<task id="87" pickup="Le Havre" delivery="Lyon" weight="3" reward="50000"/>
+				<task id="88" pickup="Monaco" delivery="Lyon" weight="3" reward="50000"/>
+				<task id="89" pickup="Monaco" delivery="Bordeaux" weight="3" reward="50000"/>
+				<task id="90" pickup="Bordeaux" delivery="Monaco" weight="3" reward="50000"/>
+				<task id="91" pickup="Brest" delivery="Lyon" weight="3" reward="50000"/>
+				<task id="92" pickup="Le Havre" delivery="Strasbourg" weight="3" reward="50000"/>
+				<task id="93" pickup="Bordeaux" delivery="Le Havre" weight="3" reward="50000"/>
+				<task id="94" pickup="Marseille" delivery="Strasbourg" weight="3" reward="50000"/>
+				<task id="95" pickup="Bordeaux" delivery="Strasbourg" weight="3" reward="50000"/>
+				<task id="96" pickup="Genève" delivery="Brest" weight="3" reward="50000"/>
+				<task id="97" pickup="Monaco" delivery="Lyon" weight="3" reward="50000"/>
+				<task id="98" pickup="Paris" delivery="Bordeaux" weight="3" reward="50000"/>
+				<task id="99" pickup="Marseille" delivery="Lyon" weight="3" reward="50000"/>
+			</tasks>
+			<events>
+<<<<<<< HEAD
+				<event id="0" time="0" vehicle="Vehicle 1" pickup="0"/>
+				<event id="1" time="0" vehicle="Vehicle 2" pickup="0"/>
+				<event id="2" time="0" vehicle="Vehicle 3" move="Paris"/>
+				<event id="3" time="299999999" vehicle="Vehicle 1" move="Lyon"/>
+				<event id="4" time="299999999" vehicle="Vehicle 2" move="Genève"/>
+				<event id="5" time="977272706" vehicle="Vehicle 2" move="Strasbourg"/>
+				<event id="6" time="2418181736" vehicle="Vehicle 1" move="Marseille"/>
+				<event id="7" time="2686363543" vehicle="Vehicle 3" pickup="0"/>
+				<event id="8" time="2745454450" vehicle="Vehicle 2" deliver="0"/>
+				<event id="9" time="2986363530" vehicle="Vehicle 3" move="Lyon"/>
+				<event id="10" time="3045454435" vehicle="Vehicle 2" pickup="0"/>
+				<event id="11" time="3345454423" vehicle="Vehicle 2" move="Paris"/>
+				<event id="12" time="3854545307" vehicle="Vehicle 1" deliver="0"/>
+				<event id="13" time="4154545293" vehicle="Vehicle 1" move="Bordeaux"/>
+				<event id="14" time="5104545252" vehicle="Vehicle 3" move="Marseille"/>
+				<event id="15" time="5559090685" vehicle="Vehicle 2" move="Brest"/>
+				<event id="16" time="6540908829" vehicle="Vehicle 3" deliver="0"/>
+				<event id="17" time="6840908816" vehicle="Vehicle 3" pickup="0"/>
+				<event id="18" time="7090908805" vehicle="Vehicle 1" pickup="0"/>
+				<event id="19" time="7140908804" vehicle="Vehicle 3" move="Bordeaux"/>
+				<event id="20" time="7390908791" vehicle="Vehicle 1" move="Paris"/>
+				<event id="21" time="8245454208" vehicle="Vehicle 2" deliver="0"/>
+				<event id="22" time="8545454195" vehicle="Vehicle 2" pickup="0"/>
+				<event id="23" time="8845454184" vehicle="Vehicle 2" move="Paris"/>
+				<event id="24" time="10045454134" vehicle="Vehicle 1" move="Le Havre"/>
+				<event id="25" time="10077272316" vehicle="Vehicle 3" deliver="0"/>
+				<event id="26" time="10377272304" vehicle="Vehicle 3" pickup="0"/>
+				<event id="27" time="10677272293" vehicle="Vehicle 3" move="Lyon"/>
+				<event id="28" time="10936363190" vehicle="Vehicle 1" deliver="0"/>
+				<event id="29" time="11236363177" vehicle="Vehicle 1" move="Paris"/>
+				<event id="30" time="11531817708" vehicle="Vehicle 2" move="Strasbourg"/>
+				<event id="31" time="12127272229" vehicle="Vehicle 1" move="Strasbourg"/>
+				<event id="32" time="13349999448" vehicle="Vehicle 3" deliver="0"/>
+				<event id="33" time="13649999435" vehicle="Vehicle 3" pickup="0"/>
+				<event id="34" time="13745453976" vehicle="Vehicle 2" deliver="0"/>
+				<event id="35" time="13949999425" vehicle="Vehicle 3" move="Paris"/>
+				<event id="36" time="14045453965" vehicle="Vehicle 2" move="Genève"/>
+				<event id="37" time="14340908500" vehicle="Vehicle 1" pickup="0"/>
+				<event id="38" time="14640908485" vehicle="Vehicle 1" move="Genève"/>
+				<event id="39" time="15813635704" vehicle="Vehicle 2" move="Monaco"/>
+				<event id="40" time="16068181149" vehicle="Vehicle 3" move="Brest"/>
+				<event id="41" time="16409090219" vehicle="Vehicle 1" move="Lyon"/>
+				<event id="42" time="17086362912" vehicle="Vehicle 1" move="Marseille"/>
+				<event id="43" time="18181817409" vehicle="Vehicle 2" move="Genève"/>
+				<event id="44" time="18522726483" vehicle="Vehicle 1" deliver="0"/>
+				<event id="45" time="18754544661" vehicle="Vehicle 3" deliver="0"/>
+				<event id="46" time="18822726473" vehicle="Vehicle 1" pickup="0"/>
+				<event id="47" time="19054544650" vehicle="Vehicle 3" pickup="0"/>
+				<event id="48" time="19122726462" vehicle="Vehicle 1" move="Bordeaux"/>
+				<event id="49" time="19354544639" vehicle="Vehicle 3" move="Paris"/>
+				<event id="50" time="20549999131" vehicle="Vehicle 2" move="Monaco"/>
+=======
+				<event id="0" time="0" vehicle="Vehicle 1" move="Bordeaux"/>
+				<event id="1" time="0" vehicle="Vehicle 2" pickup="0"/>
+				<event id="2" time="299999991" vehicle="Vehicle 2" move="Genève"/>
+				<event id="3" time="977272680" vehicle="Vehicle 2" move="Strasbourg"/>
+				<event id="4" time="2654545311" vehicle="Vehicle 1" move="Marseille"/>
+				<event id="5" time="2745454396" vehicle="Vehicle 2" deliver="0"/>
+				<event id="6" time="3045454377" vehicle="Vehicle 2" pickup="0"/>
+				<event id="7" time="3345454356" vehicle="Vehicle 2" move="Paris"/>
+				<event id="8" time="5559090578" vehicle="Vehicle 2" move="Brest"/>
+				<event id="9" time="5590908761" vehicle="Vehicle 1" move="Lyon"/>
+				<event id="10" time="7027272301" vehicle="Vehicle 1" pickup="0"/>
+				<event id="11" time="7327272282" vehicle="Vehicle 1" move="Marseille"/>
+				<event id="12" time="8245454035" vehicle="Vehicle 2" deliver="0"/>
+				<event id="13" time="8545454017" vehicle="Vehicle 2" pickup="0"/>
+				<event id="14" time="8763635825" vehicle="Vehicle 1" deliver="0"/>
+				<event id="15" time="8845453997" vehicle="Vehicle 2" move="Paris"/>
+				<event id="16" time="9063635801" vehicle="Vehicle 1" pickup="0"/>
+				<event id="17" time="9363635780" vehicle="Vehicle 1" move="Lyon"/>
+				<event id="18" time="10799999323" vehicle="Vehicle 1" move="Genève"/>
+				<event id="19" time="11477272006" vehicle="Vehicle 1" move="Strasbourg"/>
+				<event id="20" time="11531817454" vehicle="Vehicle 2" deliver="0"/>
+				<event id="21" time="11831817435" vehicle="Vehicle 2" pickup="0"/>
+				<event id="22" time="12131817417" vehicle="Vehicle 2" move="Lyon"/>
+				<event id="23" time="13245453715" vehicle="Vehicle 1" deliver="0"/>
+				<event id="24" time="13545453697" vehicle="Vehicle 1" pickup="0"/>
+				<event id="25" time="13845453681" vehicle="Vehicle 1" move="Paris"/>
+				<event id="26" time="14249999109" vehicle="Vehicle 2" move="Marseille"/>
+				<event id="27" time="15686362647" vehicle="Vehicle 2" deliver="0"/>
+				<event id="28" time="15986362630" vehicle="Vehicle 2" move="Monaco"/>
+				<event id="29" time="16059089904" vehicle="Vehicle 1" deliver="0"/>
+				<event id="30" time="16359089885" vehicle="Vehicle 1" pickup="0"/>
+				<event id="31" time="16659089864" vehicle="Vehicle 1" move="Lyon"/>
+				<event id="32" time="17009089835" vehicle="Vehicle 2" pickup="0"/>
+				<event id="33" time="17309089816" vehicle="Vehicle 2" move="Marseille"/>
+				<event id="34" time="18331817025" vehicle="Vehicle 2" move="Lyon"/>
+				<event id="35" time="18777271550" vehicle="Vehicle 1" move="Marseille"/>
+				<event id="36" time="19768180568" vehicle="Vehicle 2" move="Paris"/>
+				<event id="37" time="20213635093" vehicle="Vehicle 1" move="Monaco"/>
+				<event id="38" time="21236362302" vehicle="Vehicle 1" deliver="0"/>
+				<event id="39" time="21536362283" vehicle="Vehicle 1" pickup="0"/>
+				<event id="40" time="21836362263" vehicle="Vehicle 1" move="Marseille"/>
+				<event id="41" time="21886362253" vehicle="Vehicle 2" move="Le Havre"/>
+				<event id="42" time="22777271282" vehicle="Vehicle 2" deliver="0"/>
+				<event id="43" time="22859089467" vehicle="Vehicle 1" move="Lyon"/>
+				<event id="44" time="23077271265" vehicle="Vehicle 2" pickup="0"/>
+				<event id="45" time="23377271246" vehicle="Vehicle 2" move="Paris"/>
+				<event id="46" time="24268180281" vehicle="Vehicle 2" move="Lyon"/>
+				<event id="47" time="24295453014" vehicle="Vehicle 1" move="Paris"/>
+				<event id="48" time="26386361955" vehicle="Vehicle 2" move="Marseille"/>
+				<event id="49" time="26413634688" vehicle="Vehicle 1" move="Le Havre"/>
+				<event id="50" time="27304543724" vehicle="Vehicle 1" deliver="0"/>
+				<event id="51" time="27604543702" vehicle="Vehicle 1" pickup="0"/>
+				<event id="52" time="27822725499" vehicle="Vehicle 2" move="Monaco"/>
+				<event id="53" time="27904543682" vehicle="Vehicle 1" move="Paris"/>
+				<event id="54" time="28795452717" vehicle="Vehicle 1" deliver="0"/>
+				<event id="55" time="28845452708" vehicle="Vehicle 2" deliver="0"/>
+				<event id="56" time="29095452695" vehicle="Vehicle 1" pickup="0"/>
+				<event id="57" time="29145452685" vehicle="Vehicle 2" pickup="0"/>
+				<event id="58" time="29395452671" vehicle="Vehicle 1" move="Strasbourg"/>
+				<event id="59" time="29445452664" vehicle="Vehicle 2" move="Marseille"/>
+				<event id="60" time="30468179872" vehicle="Vehicle 2" move="Lyon"/>
+				<event id="61" time="31609088894" vehicle="Vehicle 1" deliver="0"/>
+				<event id="62" time="31904543416" vehicle="Vehicle 2" move="Paris"/>
+				<event id="63" time="31909088876" vehicle="Vehicle 1" pickup="0"/>
+				<event id="64" time="32209088857" vehicle="Vehicle 1" move="Paris"/>
+				<event id="65" time="34022725094" vehicle="Vehicle 2" deliver="0"/>
+				<event id="66" time="34322725074" vehicle="Vehicle 2" move="Bordeaux"/>
+				<event id="67" time="34422725075" vehicle="Vehicle 1" move="Le Havre"/>
+				<event id="68" time="35313634108" vehicle="Vehicle 1" deliver="0"/>
+				<event id="69" time="35613634086" vehicle="Vehicle 1" pickup="0"/>
+				<event id="70" time="35913634064" vehicle="Vehicle 1" move="Paris"/>
+				<event id="71" time="36804543098" vehicle="Vehicle 1" move="Lyon"/>
+				<event id="72" time="36977270359" vehicle="Vehicle 2" move="Marseille"/>
+				<event id="73" time="38922724782" vehicle="Vehicle 1" deliver="0"/>
+				<event id="74" time="39222724764" vehicle="Vehicle 1" pickup="0"/>
+				<event id="75" time="39522724746" vehicle="Vehicle 1" move="Genève"/>
+				<event id="76" time="39913633809" vehicle="Vehicle 2" pickup="0"/>
+				<event id="77" time="40199997428" vehicle="Vehicle 1" deliver="0"/>
+				<event id="78" time="40213633789" vehicle="Vehicle 2" move="Lyon"/>
+				<event id="79" time="40499997407" vehicle="Vehicle 1" pickup="0"/>
+				<event id="80" time="40799997390" vehicle="Vehicle 1" move="Lyon"/>
+				<event id="81" time="41477270076" vehicle="Vehicle 1" move="Paris"/>
+				<event id="82" time="41649997337" vehicle="Vehicle 2" move="Genève"/>
+				<event id="83" time="42327270022" vehicle="Vehicle 2" move="Strasbourg"/>
+				<event id="84" time="43595451760" vehicle="Vehicle 1" move="Brest"/>
+				<event id="85" time="44095451729" vehicle="Vehicle 2" deliver="0"/>
+				<event id="86" time="44395451712" vehicle="Vehicle 2" move="Paris"/>
+				<event id="87" time="46281815226" vehicle="Vehicle 1" deliver="0"/>
+				<event id="88" time="46581815207" vehicle="Vehicle 1" move="Paris"/>
+				<event id="89" time="46609087935" vehicle="Vehicle 2" pickup="0"/>
+				<event id="90" time="46909087915" vehicle="Vehicle 2" move="Le Havre"/>
+				<event id="91" time="47799996946" vehicle="Vehicle 2" deliver="0"/>
+				<event id="92" time="48099996925" vehicle="Vehicle 2" pickup="0"/>
+				<event id="93" time="48399996907" vehicle="Vehicle 2" move="Paris"/>
+				<event id="94" time="49268178668" vehicle="Vehicle 1" move="Brest"/>
+				<event id="95" time="49290905939" vehicle="Vehicle 2" move="Lyon"/>
+				<event id="96" time="51409087620" vehicle="Vehicle 2" move="Marseille"/>
+				<event id="97" time="51954542132" vehicle="Vehicle 1" pickup="0"/>
+				<event id="98" time="52254542117" vehicle="Vehicle 1" move="Paris"/>
+				<event id="99" time="52845451170" vehicle="Vehicle 2" move="Monaco"/>
+				<event id="100" time="53868178373" vehicle="Vehicle 2" deliver="0"/>
+				<event id="101" time="54168178352" vehicle="Vehicle 2" pickup="0"/>
+				<event id="102" time="54468178331" vehicle="Vehicle 2" move="Marseille"/>
+				<event id="103" time="54940905573" vehicle="Vehicle 1" move="Strasbourg"/>
+				<event id="104" time="55490905536" vehicle="Vehicle 2" move="Lyon"/>
+				<event id="105" time="56927269085" vehicle="Vehicle 2" move="Paris"/>
+				<event id="106" time="57154541801" vehicle="Vehicle 1" deliver="0"/>
+				<event id="107" time="57454541786" vehicle="Vehicle 1" pickup="0"/>
+				<event id="108" time="57754541767" vehicle="Vehicle 1" move="Paris"/>
+				<event id="109" time="59045450770" vehicle="Vehicle 2" deliver="0"/>
+				<event id="110" time="59345450753" vehicle="Vehicle 2" pickup="0"/>
+				<event id="111" time="59645450733" vehicle="Vehicle 2" move="Lyon"/>
+				<event id="112" time="59968177985" vehicle="Vehicle 1" deliver="0"/>
+				<event id="113" time="60268177965" vehicle="Vehicle 1" pickup="0"/>
+				<event id="114" time="60568177943" vehicle="Vehicle 1" move="Lyon"/>
+				<event id="115" time="61763632405" vehicle="Vehicle 2" move="Genève"/>
+				<event id="116" time="62440905086" vehicle="Vehicle 2" deliver="0"/>
+				<event id="117" time="62686359614" vehicle="Vehicle 1" move="Marseille"/>
+				<event id="118" time="62740905066" vehicle="Vehicle 2" pickup="0"/>
+				<event id="119" time="63040905046" vehicle="Vehicle 2" move="Lyon"/>
+				<event id="120" time="63718177728" vehicle="Vehicle 2" move="Paris"/>
+				<event id="121" time="64122723155" vehicle="Vehicle 1" deliver="0"/>
+				<event id="122" time="64422723137" vehicle="Vehicle 1" move="Lyon"/>
+				<event id="123" time="65836359407" vehicle="Vehicle 2" move="Le Havre"/>
+				<event id="124" time="65859086679" vehicle="Vehicle 1" pickup="0"/>
+				<event id="125" time="66159086659" vehicle="Vehicle 1" move="Marseille"/>
+				<event id="126" time="66727268437" vehicle="Vehicle 2" deliver="0"/>
+				<event id="127" time="67027268415" vehicle="Vehicle 2" pickup="0"/>
+				<event id="128" time="67327268394" vehicle="Vehicle 2" move="Paris"/>
+				<event id="129" time="67595450198" vehicle="Vehicle 1" deliver="0"/>
+				<event id="130" time="67895450181" vehicle="Vehicle 1" pickup="0"/>
+				<event id="131" time="68195450162" vehicle="Vehicle 1" move="Lyon"/>
+				<event id="132" time="68218177432" vehicle="Vehicle 2" move="Lyon"/>
+				<event id="133" time="69631813704" vehicle="Vehicle 1" move="Genève"/>
+				<event id="134" time="70309086386" vehicle="Vehicle 1" move="Strasbourg"/>
+				<event id="135" time="70336359110" vehicle="Vehicle 2" move="Marseille"/>
+				<event id="136" time="71772722649" vehicle="Vehicle 2" move="Monaco"/>
+				<event id="137" time="72077268083" vehicle="Vehicle 1" deliver="0"/>
+				<event id="138" time="72377268064" vehicle="Vehicle 1" pickup="0"/>
+				<event id="139" time="72677268045" vehicle="Vehicle 1" move="Paris"/>
+				<event id="140" time="72795449852" vehicle="Vehicle 2" deliver="0"/>
+				<event id="141" time="73095449832" vehicle="Vehicle 2" move="Genève"/>
+				<event id="142" time="74890904258" vehicle="Vehicle 1" move="Brest"/>
+				<event id="143" time="75463631485" vehicle="Vehicle 2" pickup="0"/>
+				<event id="144" time="75763631468" vehicle="Vehicle 2" move="Lyon"/>
+				<event id="145" time="76440904152" vehicle="Vehicle 2" move="Paris"/>
+				<event id="146" time="77577267715" vehicle="Vehicle 1" deliver="0"/>
+				<event id="147" time="77877267698" vehicle="Vehicle 1" move="Paris"/>
+				<event id="148" time="78559085831" vehicle="Vehicle 2" move="Brest"/>
+				<event id="149" time="80563631151" vehicle="Vehicle 1" pickup="0"/>
+				<event id="150" time="80863631132" vehicle="Vehicle 1" move="Lyon"/>
+				<event id="151" time="81245449284" vehicle="Vehicle 2" deliver="0"/>
+				<event id="152" time="81545449264" vehicle="Vehicle 2" pickup="0"/>
+				<event id="153" time="81845449246" vehicle="Vehicle 2" move="Paris"/>
+				<event id="154" time="82981812819" vehicle="Vehicle 1" move="Marseille"/>
+				<event id="155" time="84418176364" vehicle="Vehicle 1" deliver="0"/>
+				<event id="156" time="84531812716" vehicle="Vehicle 2" deliver="0"/>
+				<event id="157" time="84718176341" vehicle="Vehicle 1" pickup="0"/>
+				<event id="158" time="84831812694" vehicle="Vehicle 2" move="Strasbourg"/>
+				<event id="159" time="85018176322" vehicle="Vehicle 1" move="Bordeaux"/>
+				<event id="160" time="87045448914" vehicle="Vehicle 2" pickup="0"/>
+				<event id="161" time="87345448895" vehicle="Vehicle 2" move="Paris"/>
+				<event id="162" time="87954539771" vehicle="Vehicle 1" deliver="0"/>
+				<event id="163" time="88254539750" vehicle="Vehicle 1" pickup="0"/>
+				<event id="164" time="88554539727" vehicle="Vehicle 1" move="Lyon"/>
+				<event id="165" time="89559085115" vehicle="Vehicle 2" deliver="0"/>
+				<event id="166" time="89859085099" vehicle="Vehicle 2" pickup="0"/>
+				<event id="167" time="90159085081" vehicle="Vehicle 2" move="Strasbourg"/>
+				<event id="168" time="91227266826" vehicle="Vehicle 1" move="Genève"/>
+				<event id="169" time="91904539503" vehicle="Vehicle 1" deliver="0"/>
+				<event id="170" time="92204539482" vehicle="Vehicle 1" pickup="0"/>
+				<event id="171" time="92372721293" vehicle="Vehicle 2" deliver="0"/>
+				<event id="172" time="92504539465" vehicle="Vehicle 1" move="Lyon"/>
+				<event id="173" time="92672721275" vehicle="Vehicle 2" move="Paris"/>
+				<event id="174" time="93181812150" vehicle="Vehicle 1" move="Marseille"/>
+				<event id="175" time="94618175699" vehicle="Vehicle 1" deliver="0"/>
+				<event id="176" time="94886357499" vehicle="Vehicle 2" pickup="0"/>
+				<event id="177" time="94918175678" vehicle="Vehicle 1" move="Monaco"/>
+				<event id="178" time="95186357477" vehicle="Vehicle 2" move="Lyon"/>
+				<event id="179" time="95940902877" vehicle="Vehicle 1" move="Marseille"/>
+				<event id="180" time="96963630088" vehicle="Vehicle 1" pickup="0"/>
+				<event id="181" time="97263630069" vehicle="Vehicle 1" move="Lyon"/>
+				<event id="182" time="97304539156" vehicle="Vehicle 2" move="Marseille"/>
+				<event id="183" time="98699993612" vehicle="Vehicle 1" deliver="0"/>
+				<event id="184" time="98740902699" vehicle="Vehicle 2" move="Monaco"/>
+				<event id="185" time="98999993591" vehicle="Vehicle 1" move="Genève"/>
+				<event id="186" time="99677266275" vehicle="Vehicle 1" pickup="0"/>
+				<event id="187" time="99763629906" vehicle="Vehicle 2" deliver="0"/>
+				<event id="188" time="99977266257" vehicle="Vehicle 1" move="Lyon"/>
+				<event id="189" time="100063629887" vehicle="Vehicle 2" move="Marseille"/>
+				<event id="190" time="100654538939" vehicle="Vehicle 1" move="Paris"/>
+				<event id="191" time="101086357094" vehicle="Vehicle 2" move="Bordeaux"/>
+				<event id="192" time="102772720623" vehicle="Vehicle 1" deliver="0"/>
+				<event id="193" time="103072720604" vehicle="Vehicle 1" pickup="0"/>
+				<event id="194" time="103372720586" vehicle="Vehicle 1" move="Strasbourg"/>
+				<event id="195" time="104022720541" vehicle="Vehicle 2" move="Lyon"/>
+				<event id="196" time="105586356799" vehicle="Vehicle 1" deliver="0"/>
+				<event id="197" time="105886356779" vehicle="Vehicle 1" pickup="0"/>
+				<event id="198" time="106186356760" vehicle="Vehicle 1" move="Paris"/>
+				<event id="199" time="106695447638" vehicle="Vehicle 2" move="Bordeaux"/>
+				<event id="200" time="108399992985" vehicle="Vehicle 1" deliver="0"/>
+				<event id="201" time="108699992965" vehicle="Vehicle 1" pickup="0"/>
+				<event id="202" time="108999992945" vehicle="Vehicle 1" move="Lyon"/>
+				<event id="203" time="109368174739" vehicle="Vehicle 2" pickup="0"/>
+				<event id="204" time="109668174716" vehicle="Vehicle 2" move="Marseille"/>
+				<event id="205" time="111118174618" vehicle="Vehicle 1" move="Marseille"/>
+				<event id="206" time="112554538167" vehicle="Vehicle 1" deliver="0"/>
+				<event id="207" time="112604538165" vehicle="Vehicle 2" deliver="0"/>
+				<event id="208" time="112854538149" vehicle="Vehicle 1" move="Lyon"/>
+				<event id="209" time="112904538149" vehicle="Vehicle 2" pickup="0"/>
+				<event id="210" time="113204538131" vehicle="Vehicle 2" move="Lyon"/>
+				<event id="211" time="114290901694" vehicle="Vehicle 1" pickup="0"/>
+				<event id="212" time="114590901671" vehicle="Vehicle 1" move="Marseille"/>
+				<event id="213" time="114640901672" vehicle="Vehicle 2" move="Genève"/>
+				<event id="214" time="115318174358" vehicle="Vehicle 2" move="Strasbourg"/>
+				<event id="215" time="116027265223" vehicle="Vehicle 1" deliver="0"/>
+				<event id="216" time="116327265206" vehicle="Vehicle 1" pickup="0"/>
+				<event id="217" time="116627265187" vehicle="Vehicle 1" move="Lyon"/>
+				<event id="218" time="117086356073" vehicle="Vehicle 2" deliver="0"/>
+				<event id="219" time="117386356056" vehicle="Vehicle 2" move="Paris"/>
+				<event id="220" time="118063628740" vehicle="Vehicle 1" move="Genève"/>
+				<event id="221" time="118740901428" vehicle="Vehicle 1" move="Strasbourg"/>
+				<event id="222" time="119599992286" vehicle="Vehicle 2" move="Strasbourg"/>
+				<event id="223" time="120509083132" vehicle="Vehicle 1" deliver="0"/>
+				<event id="224" time="120809083112" vehicle="Vehicle 1" pickup="0"/>
+				<event id="225" time="121109083092" vehicle="Vehicle 1" move="Paris"/>
+				<event id="226" time="121813628507" vehicle="Vehicle 2" move="Paris"/>
+				<event id="227" time="123322719312" vehicle="Vehicle 1" move="Bordeaux"/>
+				<event id="228" time="124027264725" vehicle="Vehicle 2" pickup="0"/>
+				<event id="229" time="124327264709" vehicle="Vehicle 2" move="Strasbourg"/>
+				<event id="230" time="125977264605" vehicle="Vehicle 1" deliver="0"/>
+				<event id="231" time="126277264585" vehicle="Vehicle 1" move="Lyon"/>
+				<event id="232" time="126540900939" vehicle="Vehicle 2" deliver="0"/>
+				<event id="233" time="126840900919" vehicle="Vehicle 2" pickup="0"/>
+				<event id="234" time="127140900900" vehicle="Vehicle 2" move="Paris"/>
+				<event id="235" time="128949991686" vehicle="Vehicle 1" move="Marseille"/>
+				<event id="236" time="129354537121" vehicle="Vehicle 2" move="Brest"/>
+				<event id="237" time="130386355230" vehicle="Vehicle 1" move="Lyon"/>
+				<event id="238" time="131822718764" vehicle="Vehicle 1" pickup="0"/>
+				<event id="239" time="132040900579" vehicle="Vehicle 2" deliver="0"/>
+				<event id="240" time="132122718746" vehicle="Vehicle 1" move="Marseille"/>
+				<event id="241" time="132340900560" vehicle="Vehicle 2" pickup="0"/>
+				<event id="242" time="132640900540" vehicle="Vehicle 2" move="Paris"/>
+				<event id="243" time="133559082287" vehicle="Vehicle 1" deliver="0"/>
+				<event id="244" time="133859082267" vehicle="Vehicle 1" pickup="0"/>
+				<event id="245" time="134159082249" vehicle="Vehicle 1" move="Lyon"/>
+				<event id="246" time="135327264001" vehicle="Vehicle 2" deliver="0"/>
+				<event id="247" time="135595445794" vehicle="Vehicle 1" move="Paris"/>
+				<event id="248" time="135627263985" vehicle="Vehicle 2" pickup="0"/>
+				<event id="249" time="135927263964" vehicle="Vehicle 2" move="Lyon"/>
+>>>>>>> 64b4a7ece3e0a622621bf08baf35c66aa0cff9f0
+			</events>
+		</round>
+	</rounds>
+	<statistics>
+<<<<<<< HEAD
+		<stat rank="1" agent="reactive-random">
+			<total-tasks value="1"/>
+			<total-distance value="4255.0"/>
+			<total-cost value="21275"/>
+			<total-reward value="200000"/>
+			<total-profit value="178725"/>
+=======
+		<stat rank="1" agent="reactive-rla">
+			<total-tasks value="1"/>
+			<total-distance value="26271.0"/>
+			<total-cost value="131355"/>
+			<total-reward value="1958109"/>
+			<total-profit value="1826754"/>
+>>>>>>> 64b4a7ece3e0a622621bf08baf35c66aa0cff9f0
+		</stat>
+		<stat rank="2" agent="reactive-rla">
+			<total-tasks value="1"/>
+<<<<<<< HEAD
+			<total-distance value="4391.0"/>
+			<total-cost value="21955"/>
+			<total-reward value="150000"/>
+			<total-profit value="128045"/>
+		</stat>
+		<stat rank="3" agent="reactive-rla-2">
+			<total-tasks value="0"/>
+			<total-distance value="4646.0"/>
+			<total-cost value="23230"/>
+			<total-reward value="150000"/>
+			<total-profit value="126770"/>
+=======
+			<total-distance value="27136.0"/>
+			<total-cost value="135680"/>
+			<total-reward value="1296627"/>
+			<total-profit value="1160947"/>
+>>>>>>> 64b4a7ece3e0a622621bf08baf35c66aa0cff9f0
+		</stat>
+	</statistics>
+</history>

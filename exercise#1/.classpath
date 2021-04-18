@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="resources/src/" kind="src" path="298855-293361-in/src"/>
+	<classpathentry kind="src" path="298855-293361-in/src/resources/src"/>
+	<classpathentry kind="src" path="rabbits/rabbits/298855-293361/src"/>
+	<classpathentry exported="true" kind="lib" path="298855-293361-in/298855-293361-in.jar"/>
+	<classpathentry exported="true" kind="lib" path="rabbits/__MACOSX/rabbits/lib/._repast.jar"/>
+	<classpathentry exported="true" kind="lib" path="rabbits/rabbits/298855-293361/RabbitSimulation.jar"/>
+	<classpathentry exported="true" kind="lib" path="rabbits/rabbits/lib/repast.jar"/>
+	<classpathentry kind="output" path="298855-293361-in/bin"/>
+</classpath>
